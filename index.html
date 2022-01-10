@@ -12,6 +12,7 @@
 
 <body>
     <div id="content">
+        
         <div id="login_box">
             <input id="i" type="text" placeholder="아이디">
             <br><br>
@@ -19,6 +20,24 @@
             <br>
             <input id="btn" type="button" value="로그인" onclick="login();">
             <input id="mamber" type="button" value="회원가입" onclick="location.href='reg_member.html' " onclick="signup()">
+        </div>
+    </div>
+    <div class="frame">
+        <div class="clock">
+            <div class="time_box">
+                <span id="hours" class="large_text"></span>
+                <span class="colon">:</span>
+                <span id="minute" class="large_text"></span>
+                <span id="seconds" class="small_text"></span>
+            </div>
+            <div class="date_box">
+                <span id="year"></span>
+                <span>.</span>
+                <span id="month"></span>
+                <span>.</span>
+                <span id="date"></span>
+                <span id="day"></span>
+            </div>
         </div>
     </div>
 </body>
