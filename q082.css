@@ -1,0 +1,38 @@
+#content{
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    min-height: 100vh;
+    /* height: 800px; */
+    background-color: goldenrod;
+}
+#login_box {
+    width: 260px;     
+    background-color: gold;
+    border: 1px blue solid;
+    border-radius: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    box-shadow: 5px 5px 5px;
+}
+#btn {
+    box-shadow: 1px 1px 1px;
+}
+#mamber {
+    box-shadow: 1px 1px 1px;
+}
+
+#submit {
+    box-shadow: 1px 1px 1px;
+}
+#delete {
+    box-shadow: 1px 1px 1px;
+}
+#conten{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: yellow;
+}
